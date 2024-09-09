@@ -1,29 +1,29 @@
 # Assesment
 
 
-##Automated Infrastructure Setup using Terraform
+# Automated Infrastructure Setup using Terraform
 
-#main.tf
+# main.tf
 
 terraform init
 
 terraform apply 
 
-#the above main.tf will provision a VPC, subnets, firewall rules, and a web server instance on GCP using Terraform. The web server will be accessible via HTTP/HTTPS.
+# the above main.tf will provision a VPC, subnets, firewall rules, and a web server instance on GCP using Terraform. The web server will be accessible via HTTP/HTTPS.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Pre-requisites:
+# Pre-requisites:
 #Install Jenkins on a server 
 #Install the Google Cloud SDK on the Jenkins server to interact with GCP.
 #Git Plugin for pulling code from a Git repository.
 #Pipeline Plugin for creating Jenkins pipelines.
 #SSH Agent Plugin for SSH-based deployments.
 
-#the above Jenkinsfile.groovy will automate the CI/CD pipeline, building, testing, and deploying of sample  Node.js application to a Compute Engine instance using Jenkins.
+# the above Jenkinsfile.groovy will automate the CI/CD pipeline, building, testing, and deploying of sample  Node.js application to a Compute Engine instance using Jenkins.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Set Up Monitoring in Google Cloud Console
+# Set Up Monitoring in Google Cloud Console
 1. Access Monitoring
 2. Create a Dashboard
 3. Navigate to Dashboards in the Monitoring section.
@@ -33,7 +33,7 @@ terraform apply
    compute.googleapis.com/instance/disk for disk usage, 
    compute.googleapis.com/instance/memory for memory usage,
    compute.googleapis.com/instance/disk for CPU usage.
-#Set Up an Alert for High CPU Usage
+# Set Up an Alert for High CPU Usage
 1. Create an Alert Policy
 
    In the Monitoring section of the Google Cloud Console, navigate to Alerting.
@@ -53,7 +53,7 @@ Choose Email and provide your email address.
 
 click Save to create the alert policy.
 
-By following the above steps, we will be able to monitor VM instance’s resource usage and receive email notifications if CPU usage exceeds the specified threshold.
+# By following the above steps, we will be able to monitor VM instance’s resource usage and receive email notifications if CPU usage exceeds the specified threshold.
 
 
-#Thanks. 
+# Thanks. 
