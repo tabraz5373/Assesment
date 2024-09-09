@@ -9,9 +9,10 @@ terraform init
 
 terraform apply 
 
-# the above main.tf will provision a VPC, subnets, firewall rules, and a web server instance on GCP using Terraform. The web server will be accessible via HTTP/HTTPS.
+#the above main.tf will provision a VPC, subnets, firewall rules, and a web server instance on GCP using Terraform. The web server will be accessible via HTTP/HTTPS.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Jenkins CI/CD Pipeline 
 
 # Pre-requisites:
 #Install Jenkins on a server 
@@ -20,7 +21,7 @@ terraform apply
 #Pipeline Plugin for creating Jenkins pipelines.
 #SSH Agent Plugin for SSH-based deployments.
 
-# the above Jenkinsfile.groovy will automate the CI/CD pipeline, building, testing, and deploying of sample  Node.js application to a Compute Engine instance using Jenkins.
+#the above Jenkinsfile.groovy will automate the CI/CD pipeline, building, testing, and deploying of sample  Node.js application to a Compute Engine instance using Jenkins.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Set Up Monitoring in Google Cloud Console
@@ -53,7 +54,7 @@ Choose Email and provide your email address.
 
 click Save to create the alert policy.
 
-# By following the above steps, we will be able to monitor VM instance’s resource usage and receive email notifications if CPU usage exceeds the specified threshold.
+#By following the above steps, we will be able to monitor VM instance’s resource usage and receive email notifications if CPU usage exceeds the specified threshold.
 
 
 # Thanks. 
